@@ -1,0 +1,487 @@
+/* Pokemon in CSS - Created by AJ Funk */
+#weedle *
+{
+    position: absolute;
+    box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    border: none;
+}
+
+#weedle
+{
+    position: relative;
+    width: 111px;
+    height: 0;
+    margin: 0 auto;
+}
+
+/* HEAD */
+#weedle .head
+{
+    top: 50px;
+    left: -5px;
+    height:108px;
+    width:108px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border: 1px solid #000000;
+    background-color: #f2c968;
+}
+
+#weedle .head .horn-outline
+{
+    top: -37px;
+    left:55px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 50px solid #000000;
+    -webkit-transform: rotate(18deg);
+    -ms-transform: rotate(18deg);
+    transform: rotate(18deg);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+#weedle .head .horn
+{
+    top: 2px;
+    left: -19px;
+    border-left: 19px solid transparent;
+    border-right: 19px solid transparent;
+    border-bottom: 47px solid #def0e6;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+#weedle .head .horn-outline .horn-base
+{
+    top: 43px;
+    left: -19px;
+    height:10px;
+    width:37px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-bottom: 1px solid #000000;
+    background-color: #def0e6;
+}
+
+#weedle .head .nose
+{
+    top: 40px;
+    left: -10px;
+    height:30px;
+    width:55px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-transform: rotate(200deg);
+    -ms-transform: rotate(200deg);
+    transform: rotate(200deg);
+    border: 1px solid #000000;
+    background-color: #c86ca2;
+    box-shadow: 8px 8px 2px #97446c inset;
+}
+
+#weedle .head .eye-left
+{
+    top: 35px;
+    left: 65px;
+    height:15px;
+    width:13px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-transform: rotate(22deg);
+    -ms-transform: rotate(22deg);
+    transform: rotate(22deg);
+    background-color: #221e1f;
+}
+
+#weedle .head .eye-left .pupil
+{
+    top: 1px;
+    left: 3px;
+    height:8px;
+    width:7px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    background-color: #ffffff;
+}
+
+#weedle .head .eye-right
+{
+    top: 20px;
+    left: 13px;
+    height:13px;
+    width:9px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    transform: rotate(35deg);
+    background-color: #221e1f;
+}
+
+#weedle .head .eye-right .pupil
+{
+    top: 1px;
+    left: 2px;
+    height:6px;
+    width:5px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    background-color: #ffffff;
+}
+
+/* CIRCLES FOR BODY */
+#weedle .body1
+{
+    top: 135px;
+    left: 5px;
+    height:65px;
+    width:75px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+    border: 1px solid #000000;
+    background-color: #f2c968;
+}
+
+#weedle .body2
+{
+    top: 175px;
+    left: 17px;
+    height:55px;
+    width:65px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border: 1px solid #000000;
+    background-color: #f2c968;
+}
+
+#weedle .body3
+{
+    top: 205px;
+    left: 34px;
+    height:50px;
+    width:60px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    border: 1px solid #000000;
+    background-color: #f2c968;
+}
+
+#weedle .body4
+{
+    top: 227px;
+    left: 55px;
+    height:44px;
+    width:52px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-transform: rotate(-55deg);
+    -ms-transform: rotate(-55deg);
+    transform: rotate(-55deg);
+    border: 1px solid #000000;
+    background-color: #f2c968;
+}
+
+#weedle .body5
+{
+    top: 239px;
+    left: 83px;
+    height:41px;
+    width:49px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-transform: rotate(-70deg);
+    -ms-transform: rotate(-70deg);
+    transform: rotate(-70deg);
+    border: 1px solid #000000;
+    background-color: #f2c968;
+}
+
+#weedle .body6
+{
+    top: 240px;
+    left: 110px;
+    height:38px;
+    width:45px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    border: 1px solid #000000;
+    background-color: #f2c968;
+}
+
+#weedle .body7
+{
+    top: 235px;
+    left: 135px;
+    height:32px;
+    width:39px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    border: 1px solid #000000;
+    background-color: #f2c968;
+}
+
+/* LEFT FEET */
+#weedle .body1 .left-foot
+{
+    top: 35px;
+    left: 42px;
+    height:15px;
+    width: 15px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border: 1px solid #000000;
+    background-color: #c86ca2;
+}
+
+#weedle .body2 .left-foot
+{
+    top: 35px;
+    left: 35px;
+    height:14px;
+    width: 14px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border: 1px solid #000000;
+    background-color: #c86ca2;
+}
+
+#weedle .body3 .left-foot
+{
+    top: 37px;
+    left: 23px;
+    height:14px;
+    width: 14px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border: 1px solid #000000;
+    background-color: #c86ca2;
+}
+
+#weedle .body4 .left-foot
+{
+    top: 29px;
+    left: 8px;
+    height:14px;
+    width: 14px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border: 1px solid #000000;
+    background-color: #c86ca2;
+}
+
+#weedle .body5 .left-foot
+{
+    top: 28px;
+    left: 4px;
+    height:12px;
+    width: 12px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border: 1px solid #000000;
+    background-color: #c86ca2;
+}
+
+#weedle .body6 .left-foot
+{
+    top: 25px;
+    left: 2px;
+    height:10px;
+    width: 10px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border: 1px solid #000000;
+    background-color: #c86ca2;
+}
+
+/* RIGHT FEET */
+#weedle .right-foot1
+{
+    top: 155px;
+    left: -4px;
+    height:15px;
+    width: 15px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border: 1px solid #000000;
+    background-color: #c86ca2;
+
+}
+
+#weedle .right-foot2
+{
+    top: 202px;
+    left: 12px;
+    height:15px;
+    width: 15px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border: 1px solid #000000;
+    background-color: #c86ca2;
+}
+
+#weedle .right-foot3
+{
+    top: 237px;
+    left: 32px;
+    height:13px;
+    width: 13px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border: 1px solid #000000;
+    background-color: #c86ca2;
+}
+
+#weedle .right-foot4
+{
+    top: 256px;
+    left: 55px;
+    height:13px;
+    width: 13px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border: 1px solid #000000;
+    background-color: #c86ca2;
+}
+
+/* TAIL */
+#weedle .tail-shadow
+{
+    top:210px;
+    left: 158px;
+    height:23px;
+    width:38px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    transform: rotate(120deg);
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    box-shadow: -6px 5px 2px #b4c5bb inset;
+
+
+}
+
+#weedle .tail
+{
+    top: 208px;
+    left: 156px;
+    height:15px;
+    width: 40px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-transform: rotate(125deg);
+    -ms-transform: rotate(125deg);
+    transform: rotate(125deg);
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    background-color: #def0e6;
+}
+
+#weedle .tail .tip
+{
+    top: -1px;
+    left: -6px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 28px solid #def0e6;
+    -webkit-transform: rotate(-130deg);
+    -ms-transform: rotate(-130deg);
+    transform: rotate(-130deg);
+}
+
+#weedle .tail .tip2
+{
+    top: 15px;
+    left: -6px;
+    width: 20px;
+    height:2px;
+    -webkit-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+    background-color: #def0e6;
+    border-bottom: 1px solid #000000;
+}
+
+#weedle .tail .tip3
+{
+    top: 18px;
+    left: -10px;
+    width: 5px;
+    height:2px;
+    -webkit-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+    border-bottom: 1px solid #000000;
+}
+
+#weedle .tail .tip4
+{
+    top: 3px;
+    left: -4px;
+    width: 11px;
+    height:2px;
+    -webkit-transform: rotate(-55deg);
+    -ms-transform: rotate(-55deg);
+    transform: rotate(-55deg);
+    border-bottom: 1px solid #000000;
+
+}
+
+#weedle .tip-outline
+{
+    top: 184px;
+    left: 174px;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 30px solid #000000;
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+
+}
