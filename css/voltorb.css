@@ -27,6 +27,66 @@
     border: 1px solid #000000;
 }
 
+#voltorb .body .shadow
+{
+    top:0px;
+    height: 225px;
+    width: 225px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    box-shadow: 3px 24px 1px #b5c2bb inset;
+    -webkit-transform: rotate(96deg);
+    -ms-transform: rotate(96deg);
+    transform: rotate(96deg);
+}
+
+#voltorb .body .shadow2
+{
+    top:146.5px;
+    left:183px;
+    width: 0;
+    height: 0;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-top: 16px solid #a82b43;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transform: rotate(159deg);
+    -ms-transform: rotate(159deg);
+    transform: rotate(159deg);
+}
+
+#voltorb .body .shadow3
+{
+    top:147.9px;
+    left:185.5px;
+    width: 0;
+    height: 0;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-top: 16px solid #a82b43;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transform: rotate(174deg);
+    -ms-transform: rotate(174deg);
+    transform: rotate(174deg);
+}
+
+#voltorb .body .patch
+{
+    top:135px;
+    left:149.9px;
+    width: 48px;
+    height: 6px;
+    background-color: #db4c63;
+    -webkit-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    transform: rotate(25deg);
+}
+
 #voltorb .body .top
 {
     top:93px;
@@ -81,35 +141,196 @@
 
 #voltorb .body .top4
 {
-    top:29px;
-    left:132.5px;
+    top:27.5px;
+    left:131.5px;
     height:112.5px;
     width:112.5px;
     border-radius: 400px 0 0 0;
     -moz-border-radius: 400px 0 0 0;
     -webkit-border-radius: 400px 0 0 0;
     background:#db4c63;
-    -webkit-transform: rotate(116deg);
-    -ms-transform: rotate(116deg);
-    transform: rotate(116deg);
+    -webkit-transform: rotate(115deg);
+    -ms-transform: rotate(115deg);
+    transform: rotate(115deg);
+    box-shadow: -3px 24px 1px #a82b43 inset;
 }
 
-#voltorb .left-eye
+#voltorb .body .light
+{
+    top: 37px;
+    left: 28px;
+    height:46px;
+    width:25px;
+    border-radius: 50% ;
+    -webkit-border-radius: 50% ;    
+    -moz-border-radius: 50% ;
+    background-color: #f2dadf;
+    -webkit-transform: rotate(48deg);
+    -ms-transform: rotate(48deg);
+    transform: rotate(48deg);
+}
+
+#voltorb .body .light2
+{
+    top: -11px;
+    left: 55px;
+    height:75px;
+    width:25px;
+    border-radius: 50% ;
+    -webkit-border-radius: 50% ;    
+    -moz-border-radius: 50% ;
+    background-color: #f2dadf;
+    -webkit-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    transform: rotate(60deg);
+}
+
+#voltorb .body .light3
+{
+    top: 9px;
+    left: 33px;
+    height:75px;
+    width:34px;
+    border-radius: 50% ;
+    -webkit-border-radius: 50% ;    
+    -moz-border-radius: 50% ;
+    background-color: #f2dadf;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#voltorb .body .light3 .patch
+{
+    top: -41px;
+    left: 24px;
+    height:131px;
+    width:45px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;    
+    -moz-border-radius: 50%;
+    background-color: #db4c63;
+    -webkit-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+}
+
+#voltorb .body .light4
+{
+    top: -2px;
+    left: 124px;
+    height:26px;
+    width:13px;
+    border-radius: 50%  50%  50%  50%  / 60%   60%   40%  40%;
+    -webkit-border-radius: 50%  50%  50%  50%  / 60%   60%   40%  40%;    
+    -moz-border-radius: 50%  50%  50%  50%  / 60%   60%   40%  40%;
+    background-color: #f2dadf;
+    -webkit-transform: rotate(-80deg);
+    -ms-transform: rotate(-80deg);
+    transform: rotate(-80deg);
+}
+
+#voltorb .body .detail
+{
+    top: 39px;
+    left: 75px;
+    height:11px;
+    width:1px;
+    border-right: 1px solid #000000; 
+}
+
+#voltorb .body .detail2
+{
+    top: 35px;
+    left: 85px;
+    height:16px;
+    width:1px;
+    border-right: 1px solid #000000; 
+    -webkit-transform: rotate(-14deg);
+    -ms-transform: rotate(-14deg);
+    transform: rotate(-14deg);
+}
+
+#voltorb .body .detail3
+{
+    top: 28px;
+    left: 98px;
+    height:20px;
+    width:1px;
+    border-right: 1px solid #000000; 
+    -webkit-transform: rotate(-39deg);
+    -ms-transform: rotate(-39deg);
+    transform: rotate(-39deg);
+}
+
+#voltorb .body .detail4
+{
+    top: 22px;
+    left: 106px;
+    height:14px;
+    width:1px;
+    border-right: 1px solid #000000; 
+    -webkit-transform: rotate(-55deg);
+    -ms-transform: rotate(-55deg);
+    transform: rotate(-55deg);
+}
+
+#voltorb .body .detail5
+{
+    top: 16px;
+    left: 110px;
+    height:9px;
+    width:1px;
+    border-right: 1px solid #000000; 
+    -webkit-transform: rotate(-69deg);
+    -ms-transform: rotate(-69deg);
+    transform: rotate(-69deg);
+}
+
+#voltorb .body .patch2
+{
+    top: 148.5px;
+    left: 212px;
+    height:12.5px;
+    width:5px;
+    background-color: #a82b43; 
+    -webkit-transform: rotate(24deg);
+    -ms-transform: rotate(24deg);
+    transform: rotate(24deg);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+}
+
+/* RIGHT EYE */
+#voltorb .right-eye
 {
     top: 136px;
-    left: 114px;
+    left: 107px;
     width:0px; 
     height:0px; 
     border-right:28px solid transparent;
     border-top:28px solid transparent;
     border-left:40px solid #ffffff;
     border-bottom:18px solid #ffffff;
-    -webkit-transform: rotate(15deg);
-    -ms-transform: rotate(15deg);
-    transform: rotate(15deg);
+    -webkit-transform: rotate(19deg);
+    -ms-transform: rotate(19deg);
+    transform: rotate(19deg);
 }
 
-#voltorb .left-eye .bottom
+#voltorb .right-eye .patch
+{
+    top:-10px;
+    left: -71.5px;
+    height: 15px;
+    width: 50px;
+    -webkit-transform: rotate(85deg);
+    -ms-transform: rotate(85deg);
+    transform: rotate(85deg);
+    background-color: #db4c63;
+}
+
+#voltorb .right-eye .bottom
 {
     top:15px;
     left: -40px;
@@ -121,34 +342,34 @@
     background-color: #ffffff;
 }
 
-#voltorb .left-eye .underline
+#voltorb .right-eye .underline
 {
     top:14.5px;
-    left: -51.5px;
+    left: -46.5px;
     height: 5px;
     width: 80px;
     border-radius: 100%;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     border-bottom: 1.5px solid #000000;
-    -webkit-transform: rotate(1deg);
-    -ms-transform: rotate(1deg);
-    transform: rotate(1deg);
+    -webkit-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg);
 }
 
-#voltorb .left-eye .overline
+#voltorb .right-eye .overline
 {
     top:-22px;
-    left: -52.5px;
+    left: -52.3px;
     height: 15px;
-    width: 95px;
+    width: 94px;
     border-bottom: 1px solid #000000;
     -webkit-transform: rotate(34deg);
     -ms-transform: rotate(34deg);
     transform: rotate(34deg);
 }
 
-#voltorb .left-eye .overline2
+#voltorb .right-eye .overline2
 {
     top:2.5px;
     left: 30.5px;
@@ -165,22 +386,38 @@
     box-shadow: 5px 5px 1px #a82b43 inset;
 }
 
-#voltorb .left-eye .overline3
+#voltorb .right-eye .overline3
 {
-    top:-30px;
-    left: -4.5px;
+    top:-45px;
+    left: -55px;
+    height: 8px;
+    width: 11px;
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-radius: 1px 3px 0 0;
+    -webkit-border-radius: 1px 3px 0 0;
+    -moz-border-radius: 1px 3px 0 0;
+    -webkit-transform: rotate(230deg);
+    -ms-transform: rotate(230deg);
+    transform: rotate(230deg);
+}
+
+#voltorb .right-eye .overline4
+{
+    top:-31px;
+    left: 8.9px;
     height: 0px;
-    width: 56px;
+    width: 43px;
     border-top: 1px solid #000000;
     -webkit-transform: rotate(60deg);
     -ms-transform: rotate(60deg);
     transform: rotate(60deg);
 }
 
-#voltorb .left-eye .overline4
+#voltorb .right-eye .overline5
 {
-    top:-7.5px;
-    left: 34px;
+    top:-13.5px;
+    left: 38px;
     height: 8px;
     width: 2px;
     border-top: 1px solid #000000;
@@ -191,4 +428,251 @@
     -webkit-transform: rotate(30deg);
     -ms-transform: rotate(30deg);
     transform: rotate(30deg);
+}
+
+#voltorb .right-eye .shadow
+{
+    top:-37.5px;
+    left: -9px;
+    height: 69px;
+    width: 4px;
+    background-color: #cbcccd;
+    -webkit-transform: rotate(94deg) skew(-30deg, 10deg);
+    -ms-transform: rotate(94deg) skew(-30deg, 10deg);
+    transform: rotate(94deg) skew(-30deg, 10deg);
+    border-radius: 0 65% 0 0;
+    -webkit-border-radius: 0 65% 0 0;
+    -moz-border-radius: 0 65% 0 0;
+}
+
+#voltorb .right-eye .eye
+{
+    top:-4px;
+    left:-2px;
+    height: 18px;
+    width: 7px;
+    background-color: #221e1f;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+
+#voltorb .right-eye .eye .pupil
+{
+    top:-2px;
+    left:1.5px;
+    height: 9px;
+    width: 3px;
+    background-color: #d5d4d5;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+
+#voltorb .right-eye .eye .detail
+{
+    top:8.5px;
+    left:2.8px;
+    height: 9px;
+    width: 3.5px;
+    background-color: #6461ab;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    transform: rotate(6deg);
+}
+
+#voltorb .right-eye .shadow2
+{
+    top:-54px;
+    left:-9.2px;
+    height: 87px;
+    width: 7.5px;
+    background-color: #a82b43;
+    border-radius: 0 100% 0 0;
+    -webkit-border-radius: 0 100% 0 0;
+    -moz-border-radius: 0 100% 0 0;
+    -webkit-transform: rotate(-56deg);
+    -ms-transform: rotate(-56deg);
+    transform: rotate(-56deg);
+}
+
+#voltorb .right-eye .shadow3
+{
+    top:-6px;
+    left:26.2px;
+    height: 17px;
+    width: 10.5px;
+    background-color: #a82b43;
+    border-radius: 100% 0 0 0;
+    -webkit-border-radius: 100% 0 0 0;
+    -moz-border-radius: 100% 0 0 0;
+    -webkit-transform: rotate(18deg);
+    -ms-transform: rotate(18deg);
+    transform: rotate(18deg);
+}
+
+#voltorb .right-eye .shadow4
+{
+    top:-47px;
+    left:31px;
+    height: 34px;
+    width: 6px;
+    background-color: #a82b43;
+    border-radius: 0 100% 0 0;
+    -webkit-border-radius: 0 100% 0 0;
+    -moz-border-radius: 0 100% 0 0;
+    -webkit-transform: rotate(-50deg) skew(-20deg,-20deg);
+    -ms-transform: rotate(-50deg) skew(-20deg,-20deg);
+    transform: rotate(-50deg) skew(-20deg,-20deg);
+}
+
+/* LEFT EYE */
+#voltorb .left-eye
+{
+    top: 173px;
+    left: 192px;
+    width:0px; 
+    height:0px; 
+    border-left:0px solid transparent;
+    border-top:22px solid transparent;
+    border-right:26px solid #ffffff;
+    border-bottom:4px solid #ffffff;
+    -webkit-transform: rotate(-10deg) skew(-28deg, 20deg);
+    -ms-transform: rotate(-10deg) skew(-28deg, 20deg);
+    transform: rotate(-10deg) skew(-28deg, 20deg);
+}
+
+#voltorb .left-eye .overline
+{
+    top: -41.8px;
+    left:9.5px;
+    width:20px; 
+    height:20px; 
+    border-right:1px solid #000000;
+    border-bottom:1px solid #000000;
+    border-radius: 100% 60% 100% 0;
+    -webkit-border-radius: 100% 60% 100% 0;
+    -moz-border-radius: 100% 60% 100% 0;
+    background-color: #a82b43;
+    -webkit-transform: rotate(-19deg) skew(28deg, -20deg);
+    -ms-transform: rotate(-19deg) skew(28deg, -20deg);
+    transform: rotate(-19deg) skew(28deg, -20deg);
+}
+
+#voltorb .left-eye .overline2
+{
+    top: -12px;
+    left: -4.5px;
+    width: 36px; 
+    height: 0px; 
+    border-bottom:1px solid #000000;
+    background-color: #a82b43;
+    -webkit-transform: rotate(-40deg);
+    -ms-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+}
+
+#voltorb .left-eye .overline3
+{
+    top: -9.5px;
+    left: -5.5px;
+    width: 14px; 
+    height: 5px; 
+    border-top:1px solid #000000;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-transform: rotate(-83deg);
+    -ms-transform: rotate(-83deg);
+    transform: rotate(-83deg);
+}
+
+#voltorb .left-eye .patch
+{
+    top: -48px;
+    left: 11.8px;
+    width: 10px; 
+    height: 10px; 
+    background-color: #a82b43;
+    -webkit-transform: rotate(-27deg);
+    -ms-transform: rotate(-27deg);
+    transform: rotate(-27deg);
+}
+
+#voltorb .left-eye .shadow
+{
+    top:-23.5px;
+    left: 11.5px;
+    height: 29.5px;
+    width: 3px;
+    background-color: #cbcccd;
+    -webkit-transform: rotate(260deg) skew(30deg, 10deg);
+    -ms-transform: rotate(260deg) skew(30deg, 10deg);
+    transform: rotate(260deg) skew(30deg, 10deg);
+}
+
+#voltorb .left-eye .eye
+{
+    top:-15px;
+    left:9px;
+    height: 17px;
+    width: 6.5px;
+    background-color: #221e1f;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+}
+
+#voltorb .left-eye .eye .pupil
+{
+    top:-2px;
+    left:1.5px;
+    height: 9px;
+    width: 3px;
+    background-color: #d5d4d5;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    transform: rotate(1deg);
+}
+
+#voltorb .left-eye .eye .detail
+{
+    top:10.5px;
+    left:2px;
+    height: 6px;
+    width: 3.5px;
+    background-color: #6461ab;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    transform: rotate(6deg);
+}
+
+#voltorb .left-eye .eye .patch
+{
+    top:-4.2px;
+    left:-1px;
+    height: 8px;
+    width: 8.5px;
+    background-color: #a82b43;
+    -webkit-transform: rotate(74deg) skew(20deg, 20deg);
+    -ms-transform: rotate(74deg) skew(20deg, 20deg);
+    transform: rotate(74deg) skew(20deg, 20deg);
 }
